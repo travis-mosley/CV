@@ -1,59 +1,39 @@
 /* This is for all pages*/
+
+
 body{
   background-color: #ffb300;
   
 }
 
-.statement{
-  font-family: 'Noto Serif Telugu', serif;
-}
-
 h1{
   font-family: 'Noto Serif Telugu', serif;
   color: #536895;
-  padding: 0;
-  margin: 0;  
-  font-size: 500%;
-  position: relative;   
 }
 
-.job{
-  font-size: 150%;
-}
-
-p{
-  border: none;
-  margin: 0;
-  padding: 5px;
-  font-size: 100%;
-}
 
 hr{
   border-style: none;  
   border-top: dotted;
   border-color: #536895;
-  border-width: 5px;
-  width: 5%;
+  border-width: 7px;
+  width: 100%;
+  padding: 0px;
 }
 
-.picture-box{
-width: 600px;
-height: 300px;
-}
-
-.name{
-width: 50%;
-text-align: center;
-}
 
 img{
-  width: 95%;
+  width: 85%;
   border-style: solid;
   border-radius: 50%;
-  border-width: 5px;
-  border-color: #536895;
-  display: block;
-  margin-left: 70;
-  margin-right: auto;  
-  padding: 0px;
+  border-width: 10%;
+  border-color: #536895;  
+}
+
+.table{
+  border-spacing: 20px;
+}
+
+.img-box{
+  width: 50%;
 }
