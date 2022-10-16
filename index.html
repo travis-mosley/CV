@@ -7,27 +7,45 @@
     <title>Travis' Personal Site</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
   </head>  
 
   <body>
 
-    <table class="table">
-      <tr>
-        <td class="img-box">
-          <img src ="https://raw.githubusercontent.com/travism816/CV/main/Travis.png" alt = "Travis Mosley">
-        </td>   
+    <div class="header">
       
-        <td>
-          <h1>Travis Mosley</h1>    
-          <p><em>Software Developer</em></p>
-         </td>
-      </tr>
-    </table> 
+        <button>Training</button>
+        <button>Work</button>
+        <button>Skills</button>
+        <button>Projects</button>
+        <button>Hobbies</button>
+        <button>Contact</button>
+      
+    </div>
+
+    <br>
+
+    <hr>
+    
+    <div class="face">
+      <table class="table">
+        <tr>
+          <td class="img-box">
+            <img src ="https://raw.githubusercontent.com/travism816/CV/main/Travis.png" alt = "Travis Mosley">
+          </td>   
+      
+          <td>
+            <h1>Travis Mosley</h1>    
+            <p class="text"><em>Software Developer</em></p>
+          </td>
+        </tr>
+      </table> 
+    </div>
 
 
     <hr>
 
-    <h3>Training</h3>
+    <h3><em>Training</em></h3>
     <ul>
       <li><a href = "https://www.appbrewery.co/" target="_blank">App Brewery Web Development Bootcamp</a></li>
       <li><a href = "https://bootcamp.uclaextension.edu/coding/" target="_blank">UCLA Extension: Web Developer Bootcamp</a></li>      
@@ -35,13 +53,13 @@
 
     <hr>
 
-    <h3>My Work Experience</h3> 
+    <h3><em>My Work Experience</em></h3> 
 
-    <table>
+    <table class="experience">
 
       <thead>
 
-        <tr>
+        <tr class="catagories">
           <th>
             Dates
           </th>
@@ -54,24 +72,26 @@
         </tr>
 
       </thead>
-      
-      <tr>
+
+      <tbody class="jobs">
+       <tr>
         <td>2022 - 2023</td>
         <td>Torrance Theater Company</td>  
         <td>Web Developer</td>      
-      </tr>
+       </tr>
 
-      <tr>
+       <tr>
         <td>2022 - 2023</td>
         <td>Some Random Job</td>
         <td>Web Developer</td>
-      </tr>
+       </tr>
+      </tbody>
 
     </table>
     
     <hr>
 
-    <h3>Skills</h3>
+    <h3><em>Skills</em></h3>
 
     <table>      
       <tr>
