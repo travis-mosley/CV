@@ -3,8 +3,13 @@
 
 body{
   background-color: #2D68C4;
-  
+  }
+
+.header{
+  display: flex;
+  justify-content: space-between;
 }
+
 
 h1{
   font-family: 'Noto Serif Telugu', serif;
@@ -47,9 +52,11 @@ img{
 }
 
 .table{
-  border-spacing: 20px;
+ border-spacing: 20px;
  margin: auto;
-padding: 10px;
+ padding: 10px;
+ white-space: wrap;
+ margin-left: 0px;
 }
 
 .img-box{
@@ -73,7 +80,7 @@ td{
   font-family: 'Noto Serif Telugu', serif;
   padding: 00;
   text-align: left;
-  width: 450px;
+  width: 100%;
 }
 
 .jobs{
