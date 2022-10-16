@@ -2,20 +2,36 @@
 
 
 body{
-  background-color: #ffb300;
+  background-color: #2D68C4;
   
 }
 
 h1{
   font-family: 'Noto Serif Telugu', serif;
-  color: #536895;
+  color: #ffb300;
+  font-size: 36px;
+  margin: 0;
+}
+
+h3{
+  font-family: 'Satisfy', cursive;
+  color: whitesmoke; 
+  font-size: 25px;
+  font-weight: normal;
+}
+
+p{
+  margin: 0;
+  font-family: 'Noto Serif Telugu', serif;
+  color: white;
+  font-size: 18px;
 }
 
 
 hr{
   border-style: none;  
   border-top: dotted;
-  border-color: #536895;
+  border-color: #ffb300;
   border-width: 7px;
   width: 100%;
   padding: 0px;
@@ -27,13 +43,46 @@ img{
   border-style: solid;
   border-radius: 50%;
   border-width: 10%;
-  border-color: #536895;  
+  border-color: #ffb300;  
 }
 
 .table{
   border-spacing: 20px;
+ margin: auto;
+padding: 10px;
 }
 
 .img-box{
   width: 50%;
+}
+
+td{
+  padding: 0px;
+  margin: 0px;
+}
+
+.table tr{
+  flex-wrap: wrap;
+}
+
+.table td{
+ 
+}
+
+.experience{
+  font-family: 'Noto Serif Telugu', serif;
+  padding: 00;
+  text-align: left;
+  width: 450px;
+}
+
+.jobs{
+  background-color: darkgray;
+  color: white;
+}
+
+.catagories{
+  
+  background-color: #ffb300;
+  color: #2D68C4
 }
